@@ -1358,7 +1358,7 @@ nav .row {
   top: 0;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-  padding: 0 5%;
+  padding: 0 2%;
   opacity: 0;
   -webkit-animation-duration: 0.4s;
   animation-duration: 0.4s;
