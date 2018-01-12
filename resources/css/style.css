@@ -942,7 +942,9 @@ nav .row {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
 	letter-spacing: 1.5px;
 	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.2s;
@@ -1757,8 +1759,8 @@ main.slide-out .cd-overlay {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  font-size: 20px;
+	text-align: center;
+	font-size: 20px;
   font-size: 1.2rem;
 }
 .cd-member-bio .cd-bio-content h3 {
@@ -1766,7 +1768,15 @@ main.slide-out .cd-overlay {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.25em;
+	font-size: 1.25em;
+	margin-bottom: 25px;
+}
+.cd-member-bio .cd-bio-content b {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-size: 0.911rem;
+  margin: 1em 0;
+  line-height: 1.4;
 }
 .cd-member-bio .cd-bio-content p {
   font-family: "Source Sans Pro", sans-serif;
@@ -1828,8 +1838,8 @@ main.slide-out .cd-overlay {
     font-size: 2rem;
   }
   .cd-member-bio .cd-bio-content p {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 14px;
+    font-size: 0.911rem;
   }
   .no-cssgradients .cd-member-bio .cd-bio-content {
     -webkit-transform: translateY(0);
